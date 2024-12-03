@@ -1,0 +1,162 @@
+/* ----------------fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* ----------------------------------------------- */
+
+
+/* ------------------------mi y vi inicio---------------------- */
+
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+
+}
+.about-1 h1{
+    text-align: center;
+    font-weight: bold
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgb(0,0,0,0.6);
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.about-item hr{
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top: 20px;
+
+}
+.about-item:hover{
+    background-color:#7DC3CE;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+    transition: all 400ms ease-in-out;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+
+
+
+
+
+
+/* -----------------------fin mision yvision---------------------- */
+.enlaces p a{
+    text-decoration: none;
+    
+}
+.nombrelink ul li a{
+    text-decoration: none;
+   
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6);
+}
+/* .carousel-inner{
+    height: 800px;
+    display: flex;
+} */
+
+*{
+    font-family: "Poppins", serif;
+}
+p {
+    font-size: 17px;
+}
+a:hover{
+    color: #0d6efd !important;
+
+}
+i{
+    font-size: 25px;
+}
+
+/* --formulario-- */
+
+.form-area{
+    padding-top: 7%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.left{
+    background-color: #0D6EFC;
+    padding: 200px 98px;
+
+}
+.left h2{
+    font-family: "Poppins", serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+
+}
+.right{
+    padding:70px 100px;
+    position: relative;
+
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -24px;
+    top: 40%;
+    color: #fff;
+}
+.form-control{
+    border: 2px solid #000;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background-color: #252525;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button:hover{
+    background-color: blueviolet;
+}
+
+@media (min-width: 390px) and (max-width: 991px) {
+    .right i{
+        top: -45px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
